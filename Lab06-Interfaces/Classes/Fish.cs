@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab06_Interfaces.Classes
 {
-    class Fish : Animal
+    public abstract class Fish : Animal
     {
         public override bool livesOnLand { get; set; }
         public override bool livesInWater { get; set; }

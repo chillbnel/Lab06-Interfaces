@@ -4,7 +4,7 @@ using Lab06_Interfaces.Interfaces;
 
 namespace Lab06_Interfaces
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -28,6 +28,36 @@ namespace Lab06_Interfaces
             Gobidine.livesOnLand = false;
             Gobidine.Migrates = false;
 
+            FishGoldfish Goldfish = new FishGoldfish();
+            Goldfish.IsEndangered = false;
+            Goldfish.livesInWater = true;
+            Goldfish.livesOnLand = false;
+            Goldfish.Migrates = false; 
+
+        }
+
+        public string BirdSound(BirdSwallow Swallow)
+        {
+            BirdSwallow newSwallow = new BirdSwallow();
+            return newSwallow.Sound();
+        }
+
+        public string BirdHabitat()
+        {
+            BirdTurkey newTurkey = new BirdTurkey();
+            return newTurkey.Habitat();
+        }
+
+        public string FishFavFood()
+        {
+            FishGoldfish newGoldfish = new FishGoldfish();
+            return newGoldfish.FavoriteFood();
+        }
+
+        public int ArachnidLegs()
+        {
+            InsectArachnidManEatingDeathMonster BriansNightmare = new InsectArachnidManEatingDeathMonster();
+            return BriansNightmare.NumberOfLegs();
         }
     }
 }
