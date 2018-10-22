@@ -5,7 +5,7 @@ using Lab06_Interfaces.Interfaces;
 
 namespace Lab06_Interfaces.Classes
 {
-    class BirdTurkey : Bird, IEndangered, IScary
+    class FishGobidine : Fish, IEndangered, IScary
     {
         public override bool Migrates { get; set; }
         public bool IsEndangered { get; set; }
@@ -13,12 +13,12 @@ namespace Lab06_Interfaces.Classes
 
         public override string Sound()
         {
-            return "Gobble gobble";
+            return "i'm colorful but small!";
         }
 
         public string Classification()
         {
-            return "Not Endangered";
+            return "Endangered";
         }
 
         public int ScaredScale()
