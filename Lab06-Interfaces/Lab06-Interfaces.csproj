@@ -6,4 +6,8 @@
     <RootNamespace>Lab06_Interfaces</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>
