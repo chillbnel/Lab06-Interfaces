@@ -5,7 +5,7 @@ using Lab06_Interfaces.Interfaces;
 
 namespace Lab06_Interfaces.Classes
 {
-    class BirdSwallow : Bird, IEndangered
+    public class BirdSwallow : Bird, IEndangered
     {
         public override bool Migrates { get; set; }
         public bool IsEndangered { get; set; }

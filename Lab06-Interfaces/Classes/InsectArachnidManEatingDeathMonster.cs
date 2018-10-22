@@ -5,7 +5,7 @@ using Lab06_Interfaces.Interfaces;
 
 namespace Lab06_Interfaces.Classes
 {
-    class InsectArachnidManEatingDeathMonster : InsectArachnid, IScary
+    public class InsectArachnidManEatingDeathMonster : InsectArachnid, IScary
     {
         public override string Color { get; set; }
         public bool IsBrianScaredofIt { get; set; }

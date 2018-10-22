@@ -5,7 +5,7 @@ using Lab06_Interfaces.Interfaces;
 
 namespace Lab06_Interfaces.Classes
 {
-    class BirdTurkey : Bird, IEndangered, IScary
+    public class BirdTurkey : Bird, IEndangered, IScary
     {
         public override bool Migrates { get; set; }
         public bool IsEndangered { get; set; }

@@ -5,7 +5,7 @@ using Lab06_Interfaces.Interfaces;
 
 namespace Lab06_Interfaces.Classes
 {
-    class FishGobidine : Fish, IEndangered, IScary
+    public class FishGobidine : Fish, IEndangered, IScary
     {
         public override bool Migrates { get; set; }
         public bool IsEndangered { get; set; }
