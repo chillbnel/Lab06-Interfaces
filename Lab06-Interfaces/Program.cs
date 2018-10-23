@@ -59,5 +59,12 @@ namespace Lab06_Interfaces
             InsectArachnidManEatingDeathMonster BriansNightmare = new InsectArachnidManEatingDeathMonster();
             return BriansNightmare.NumberOfLegs();
         }
+
+        public static bool SwallowInherit()
+        {
+            BirdSwallow Swallow = new BirdSwallow();
+            Swallow.IsEndangered = true;
+            return Swallow.IsEndangered;
+        }
     }
 }

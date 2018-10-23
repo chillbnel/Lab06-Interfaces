@@ -32,5 +32,10 @@ namespace Lab06Test
             Assert.Equal(16, ArachnidLegs());
         }
 
+        [Fact]
+        public void Inheritance()
+        {
+            Assert.True(SwallowInherit());
+        }
     }
 }
