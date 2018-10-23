@@ -2,6 +2,7 @@ using System;
 using Xunit;
 using static Lab06_Interfaces.Program;
 using Lab06_Interfaces.Classes;
+using Lab06_Interfaces;
 
 namespace Lab06Test
 {
@@ -31,5 +32,10 @@ namespace Lab06Test
             Assert.Equal(16, ArachnidLegs());
         }
 
+        [Fact]
+        public void Inheritance()
+        {
+            Assert.True(SwallowInherit());
+        }
     }
 }
