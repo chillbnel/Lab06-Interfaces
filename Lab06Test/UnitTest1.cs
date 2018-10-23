@@ -2,6 +2,7 @@ using System;
 using Xunit;
 using static Lab06_Interfaces.Program;
 using Lab06_Interfaces.Classes;
+using Lab06_Interfaces;
 
 namespace Lab06Test
 {

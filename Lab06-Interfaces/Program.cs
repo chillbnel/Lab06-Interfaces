@@ -36,25 +36,25 @@ namespace Lab06_Interfaces
 
         }
 
-        public string BirdSound(BirdSwallow Swallow)
+        public static string BirdSound()
         {
             BirdSwallow newSwallow = new BirdSwallow();
             return newSwallow.Sound();
         }
 
-        public string BirdHabitat()
+        public static string BirdHabitat()
         {
             BirdTurkey newTurkey = new BirdTurkey();
             return newTurkey.Habitat();
         }
 
-        public string FishFavFood()
+        public static string FishFavFood()
         {
             FishGoldfish newGoldfish = new FishGoldfish();
             return newGoldfish.FavoriteFood();
         }
 
-        public int ArachnidLegs()
+        public static int ArachnidLegs()
         {
             InsectArachnidManEatingDeathMonster BriansNightmare = new InsectArachnidManEatingDeathMonster();
             return BriansNightmare.NumberOfLegs();
